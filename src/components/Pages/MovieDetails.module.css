@@ -1,16 +1,24 @@
+.MovieDetailsMain {
+    background-color: #e6cece;
+}
+
 .Btn {
-    font-size: 12px;
-    padding: 5px;
+    font-size: 25px;
+    padding: 10px;
     border: none;
+    border-radius: 10px;
     box-shadow: -2px 2px 4px 1px rgba(34, 60, 80, 0.37);
     margin-top: 5px;
     margin-bottom: 5px;
-    padding-left: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
 }
 
 .Btn:hover,
 .Btn:focus {
-    background-color: #e5e6eb;
+    background-color: #0028f2;
+    color: white;
 }
 
 .Detals {
@@ -24,8 +32,6 @@
 
 .Info {
     display: flex;
-    box-shadow: -1px 12px 12px -9px rgba(34, 60, 80, 0.2);
-    padding-bottom: 10px;
 }
 
 .DetalsItem {
@@ -44,18 +50,27 @@
 }
 
 .Inform {
-    padding-left: 10px;
+    font-size: 35px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
 }
 
 .InformList {
-    box-shadow: -1px 12px 12px -9px rgba(34, 60, 80, 0.2);
-    padding-bottom: 10px;
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
 }
 
 .InformItem {
+    color: black;
+    text-align: center;
     text-decoration: none;
+    font-size: 25px;
+    margin-bottom: 20px;
+    
 }
 
 .InformItem:hover {
-    color: rgb(176, 79, 79);
+    color: rgb(4, 0, 255);
 }

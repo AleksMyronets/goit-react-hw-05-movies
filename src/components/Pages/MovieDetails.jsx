@@ -36,7 +36,7 @@ const MovieDetails = () => {
   const hendleClick = () => navigate(backLinkLocationRef.current);
 
   return (
-    <main>
+    <main className={css.MovieDetailsMain}>
       <button
         to={backLinkLocationRef.current}
         onClick={hendleClick}

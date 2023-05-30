@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import css from './Reviews.module.css'
 
 const Reviews = () => {
   const { movieId } = useParams();
@@ -23,7 +24,7 @@ const Reviews = () => {
   return (
     <>
       {error && <h1>{error.message}</h1>}
-      <ul>
+      <ul className={css.ReviewsList}>
         {reviews &&
           reviews.map(reviews => (
             <li key={reviews.id}>

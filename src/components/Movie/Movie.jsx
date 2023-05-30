@@ -7,7 +7,7 @@ const Movie = ({ films }) => {
   return (
     <>
       {
-    <ul className={css.HomeList}>
+    <ul>
           {films.map(({ title, id }) => (
             <li key={id}>
               <Link to={`${id}`} state={locatioRender} className={css.HomeLink}>
