@@ -4,7 +4,6 @@ import css from './Header.module.css';
 const Header = () => {
     return (
         <header className={css.Header}>
-            ;
             <ul className={css.HeaderList}>
                 <li>
                     <NavLink to="/" className={css.HeaderItem}>

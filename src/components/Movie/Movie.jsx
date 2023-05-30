@@ -20,7 +20,6 @@ const Movie = ({ films }) => {
     </>
   );
 };
-export default Movie;
 
 Movie.propTypes = {
   films: PropTypes.arrayOf(
@@ -30,3 +29,5 @@ Movie.propTypes = {
     })
   ),
 };
+
+export default Movie;

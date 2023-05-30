@@ -24,7 +24,7 @@ export const Homepage = () => {
         {error && <h1>{error.message}</h1>}
         <h1 className={css.HomeTrending}>Trending today</h1>
         {
-          <ul>
+          <ul className={css.HomeList}>
             {allFilms.map(({ title, id }) => (
               <li key={id}>
                 <Link
@@ -41,3 +41,5 @@ export const Homepage = () => {
       </>
     );
 }
+
+export default Homepage; 
