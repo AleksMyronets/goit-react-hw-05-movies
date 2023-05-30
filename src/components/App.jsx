@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { lazy } from 'react';
-import Layout from './Layout/Layout'
+import { Layout } from './Layout/Layout'
 const Home = lazy(() => import('./Pages/Home'));
 const Movies = lazy(() => import('./Pages/Movies'));
 const MovieDetails = lazy(() => import('./Pages/MovieDetails'));
@@ -24,3 +24,5 @@ export const App = () => {
     </div>
   );
 };
+
+export default App;
