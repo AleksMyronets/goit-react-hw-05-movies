@@ -1,0 +1,17 @@
+.HomeTrending {
+    text-align: center;
+}
+
+.HomeList{
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+.HomeLink {
+    text-decoration: none;
+}
+
+.HomeLink:hover {
+    color: rgb(176, 79, 79);
+}

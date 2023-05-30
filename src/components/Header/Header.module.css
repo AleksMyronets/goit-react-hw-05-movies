@@ -1,0 +1,27 @@
+.Header {
+    padding-bottom: 5px;
+    box-shadow: -1px 12px 12px -9px rgba(34, 60, 80, 0.2);
+    background-color: rgba(160, 153, 147, 0.624);
+}
+
+.HeaderList {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.HeaderItem {
+
+    display: inline-block;
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+}
+
+.HeaderItem:hover {
+    color: rgb(251, 4, 4);
+}
